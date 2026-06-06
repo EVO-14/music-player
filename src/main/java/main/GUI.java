@@ -221,7 +221,7 @@ class GUI extends JFrame {
     }
 
     public void loadCover() {
-        ImageIcon icon = new ImageIcon(getClass().getResource("/assets/aiDentro.jpg"));
+        ImageIcon icon = new ImageIcon(getClass().getResource("/assets/dentro.jpg"));
         Image image = icon.getImage();
         Image scaledImage = image.getScaledInstance(200, 200, Image.SCALE_SMOOTH);
         lbCover.setIcon(new ImageIcon(scaledImage));
